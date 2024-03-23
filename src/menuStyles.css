@@ -1,0 +1,34 @@
+:root {
+  --custom-color: aqua;
+  --options-color: gray;
+}
+
+.trigger {
+  display: inline-grid;
+  grid-template-rows: 50px 1fr;
+  justify-items: stretch;
+  position: relative;
+  max-width: fit-content;
+}
+
+.drop-menu-content {
+  grid-row: 2 / 3;
+  display: none;
+  position: absolute;
+  background-color: var(--options-color);
+  width: 100%;
+}
+
+.a-option {
+  display: block;
+  text-decoration: none;
+}
+
+.a-option:hover {
+  background-color: var(--custom-color);
+}
+
+.drop-menu-btn {
+  background-color: var(--custom-color);
+  border: none;
+}
