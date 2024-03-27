@@ -2,6 +2,7 @@
 import dropMenu from './index';
 
 const header = document.querySelector('.head');
+
 const myMenu = {
   menuData: [
     {
